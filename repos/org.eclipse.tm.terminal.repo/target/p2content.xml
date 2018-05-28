@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='201805280754.terminal_main' version='1.0.0.9V9--cLRe-69VEx_HKY_IbLh'>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='TM Terminal Main Features'/>
+      <property name='org.eclipse.equinox.p2.description' value='TM Terminal Main Features'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201805280754.terminal_main' version='1.0.0.9V9--cLRe-69VEx_HKY_IbLh'/>
+    </provides>
+    <requires size='20'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.control.feature.feature.group' range='[4.4.0.201805280754,4.4.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.ssh.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.local.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.local.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.cdtserial.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.control.sdk.feature.feature.group' range='[4.4.0.201805280754,4.4.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.remote.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.serial.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.ssh.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.view.rse.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.telnet.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.sdk.feature.feature.group' range='[4.4.0.201805280754,4.4.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.view.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.telnet.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.remote.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.view.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.view.rse.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.connector.serial.sdk.feature.feature.group' range='[4.3.0.201805280754,4.3.0.201805280754]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.tm.terminal.feature.feature.group' range='[4.4.0.201805280754,4.4.0.201805280754]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
