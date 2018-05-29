@@ -4,6 +4,11 @@
 ##  
 fork from https://git.eclipse.org/c/tm/org.eclipse.tm.terminal.git  
 
+##  how to compile  
+*  make sure you have installed MAVEN  
+*  open CMD terminal of Windows  
+*  execute the cmd: mvn clean verify  
+
 
 ###  how to use  
 
