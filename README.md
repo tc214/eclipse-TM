@@ -7,8 +7,19 @@ fork from https://git.eclipse.org/c/tm/org.eclipse.tm.terminal.git
 ##  how to compile  
 *  make sure you have installed MAVEN  
 *  open CMD terminal of Windows  
-*  execute the cmd: mvn clean verify  
+*  execute the cmd: mvn clean verify   
 
+###  OR:  
+*  open IDE-J2EE4.5
+*  Import--Existing Maven Projects--choose the directory of project, you will see "terminal-parent" if completed
+*  open Terminal, cd dir of this project  
+*  run: mvn compile    
+
+###  Maven cmd  
+package: mvn package  
+clean:  mvn clean  
+build eclipse project:  mvn eclipse:eclipse
+install jar to local Repo:  mvn install
 
 ###  how to use  
 
