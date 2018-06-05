@@ -17,10 +17,10 @@ forked from https://git.eclipse.org/c/tm/org.eclipse.tm.terminal.git
 *  open Terminal, cd dir of this project  
 *  run: mvn compile    
 
-##  Maven cmd  
+##  Maven commands:  
 *  package: mvn package  
 *  clean:  mvn clean  
-*  build eclipse project:  mvn eclipse:eclipse  
+*  build to eclipse project:  mvn eclipse:eclipse  
 
 *  install jar to local Repo:  mvn install
 
